@@ -1,0 +1,6 @@
+boto3
+azure-storage-blob
+paramiko
+pyyaml
+pydantic
+pytest

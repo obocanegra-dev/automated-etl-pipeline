@@ -1,0 +1,29 @@
+app:
+  name: "PIMS_Migration_ETL"
+  environment: "dev"
+  log_level: "INFO"
+
+paths:
+  source: "./data/source"
+  stage: "./data/stage"
+  archive: "./data/archive"
+  error: "./data/error"
+
+# Credentials for Cloud Services
+# Leave empty or use "mock" to use the local dry-run connectors
+aws:
+  access_key: "mock"
+  secret_key: "mock"
+  bucket_name: "my-migration-bucket"
+  region: "us-east-1"
+
+azure:
+  connection_string: "mock"
+  container_name: "migration-container"
+
+sftp:
+  host: "localhost"
+  port: 2222
+  username: "user"
+  password: "password"
+  remote_path: "/upload"

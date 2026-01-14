@@ -1,0 +1,40 @@
+2026-01-14 18:51:38,127 - ETL_Pipeline - INFO - Starting ETL Pipeline...
+2026-01-14 18:51:38,133 - ETL_Pipeline - INFO - Configuration loaded. Env: dev
+2026-01-14 18:51:38,134 - extractor - INFO - Docs found in ./data/source: 0
+2026-01-14 18:51:38,136 - ETL_Pipeline - INFO - ETL Pipeline Run Complete.
+2026-01-14 18:56:15,036 - ETL_Pipeline - INFO - Starting ETL Pipeline...
+2026-01-14 18:56:15,041 - ETL_Pipeline - INFO - Configuration loaded. Env: dev
+2026-01-14 18:56:15,043 - extractor - INFO - Docs found in ./data/source: 6
+2026-01-14 18:56:15,044 - ETL_Pipeline - INFO - Processing: 1001_LAB_20231025.pdf
+2026-01-14 18:56:15,045 - ETL_Pipeline - INFO - Validation PASSED. Normalized: 1001_LAB_20231025.pdf
+2026-01-14 18:56:15,047 - extractor - INFO - Moved 1001_LAB_20231025.pdf to staging.
+2026-01-14 18:56:15,049 - cloud_connector - INFO - [MOCK] Uploading 1001_LAB_20231025.pdf to AWS S3 as 1001_LAB_20231025.pdf
+2026-01-14 18:56:15,050 - cloud_connector - INFO - [MOCK] Uploading 1001_LAB_20231025.pdf to Azure Blob as 1001_LAB_20231025.pdf
+2026-01-14 18:56:15,051 - sftp_connector - INFO - [MOCK] SFTP Upload 1001_LAB_20231025.pdf -> localhost:/upload/1001_LAB_20231025.pdf
+2026-01-14 18:56:15,055 - ETL_Pipeline - INFO - Archived 1001_LAB_20231025.pdf
+2026-01-14 18:56:15,055 - ETL_Pipeline - INFO - Processing: 1002_XR_20231025.jpg
+2026-01-14 18:56:15,056 - ETL_Pipeline - INFO - Validation PASSED. Normalized: 1002_XR_20231025.jpg
+2026-01-14 18:56:15,059 - extractor - INFO - Moved 1002_XR_20231025.jpg to staging.
+2026-01-14 18:56:15,059 - cloud_connector - INFO - [MOCK] Uploading 1002_XR_20231025.jpg to AWS S3 as 1002_XR_20231025.jpg
+2026-01-14 18:56:15,061 - cloud_connector - INFO - [MOCK] Uploading 1002_XR_20231025.jpg to Azure Blob as 1002_XR_20231025.jpg
+2026-01-14 18:56:15,062 - sftp_connector - INFO - [MOCK] SFTP Upload 1002_XR_20231025.jpg -> localhost:/upload/1002_XR_20231025.jpg
+2026-01-14 18:56:15,068 - ETL_Pipeline - INFO - Archived 1002_XR_20231025.jpg
+2026-01-14 18:56:15,069 - ETL_Pipeline - INFO - Processing: 1003_INV_20231026.pdf
+2026-01-14 18:56:15,070 - ETL_Pipeline - INFO - Validation PASSED. Normalized: 1003_INV_20231026.pdf
+2026-01-14 18:56:15,074 - extractor - INFO - Moved 1003_INV_20231026.pdf to staging.
+2026-01-14 18:56:15,075 - cloud_connector - INFO - [MOCK] Uploading 1003_INV_20231026.pdf to AWS S3 as 1003_INV_20231026.pdf
+2026-01-14 18:56:15,078 - cloud_connector - INFO - [MOCK] Uploading 1003_INV_20231026.pdf to Azure Blob as 1003_INV_20231026.pdf
+2026-01-14 18:56:15,079 - sftp_connector - INFO - [MOCK] SFTP Upload 1003_INV_20231026.pdf -> localhost:/upload/1003_INV_20231026.pdf
+2026-01-14 18:56:15,084 - ETL_Pipeline - INFO - Archived 1003_INV_20231026.pdf
+2026-01-14 18:56:15,085 - ETL_Pipeline - INFO - Processing: 1004_LAB_20231025.txt
+2026-01-14 18:56:15,086 - ETL_Pipeline - INFO - Validation PASSED. Normalized: 1004_LAB_20231025.txt
+2026-01-14 18:56:15,090 - extractor - INFO - Moved 1004_LAB_20231025.txt to staging.
+2026-01-14 18:56:15,095 - cloud_connector - INFO - [MOCK] Uploading 1004_LAB_20231025.txt to AWS S3 as 1004_LAB_20231025.txt
+2026-01-14 18:56:15,096 - cloud_connector - INFO - [MOCK] Uploading 1004_LAB_20231025.txt to Azure Blob as 1004_LAB_20231025.txt
+2026-01-14 18:56:15,097 - sftp_connector - INFO - [MOCK] SFTP Upload 1004_LAB_20231025.txt -> localhost:/upload/1004_LAB_20231025.txt
+2026-01-14 18:56:15,099 - ETL_Pipeline - INFO - Archived 1004_LAB_20231025.txt
+2026-01-14 18:56:15,102 - ETL_Pipeline - INFO - Processing: LAB_REPORT_FINAL.pdf
+2026-01-14 18:56:15,103 - ETL_Pipeline - WARNING - Validation FAILED: LAB_REPORT_FINAL.pdf -> Does not match ID_TYPE_DATE format
+2026-01-14 18:56:15,106 - ETL_Pipeline - INFO - Processing: unknown_file.txt
+2026-01-14 18:56:15,106 - ETL_Pipeline - WARNING - Validation FAILED: unknown_file.txt -> Does not match ID_TYPE_DATE format
+2026-01-14 18:56:15,109 - ETL_Pipeline - INFO - ETL Pipeline Run Complete.
