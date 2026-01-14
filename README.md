@@ -3,7 +3,7 @@
 ## Overview
 This project simulates an end-to-end ELT solution for migrating medical/veterinary data files from a legacy system to modern cloud storage (AWS S3, Azure Blob) and SFTP servers. It includes file validation, normalization, and secure transfer simulations.
 
-## Key Features (CV Highlights)
+## Key Features
 
 - **Scripting & Automation**: 
   - Python-based `FileExtractor` for real-time directory monitoring.
